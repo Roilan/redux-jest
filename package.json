@@ -1,0 +1,25 @@
+{
+  "name": "redux-jest",
+  "version": "0.0.0",
+  "description": "Write Redux test with Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roilan/redux-jest.git"
+  },
+  "keywords": [
+    "redux",
+    "jest",
+    "test",
+    "react"
+  ],
+  "author": "Roilan Salinas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Roilan/redux-jest/issues"
+  },
+  "homepage": "https://github.com/Roilan/redux-jest#readme"
+}
