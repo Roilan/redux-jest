@@ -1,4 +1,4 @@
-const reducerTest = require('../../index').reducerTest;
+const reducerTest = require('../../dist/index').reducerTest;
 
 const SET_NAME = 'SET_NAME';
 

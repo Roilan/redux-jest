@@ -1,3 +1,4 @@
 {
-  "presets": ["stage-3"]
+  "presets": ["stage-3"],
+  "plugins": ["transform-regenerator"]
 }

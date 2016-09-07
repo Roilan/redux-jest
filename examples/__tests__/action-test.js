@@ -1,4 +1,4 @@
-const actionTest = require('../../index').actionTest;
+const actionTest = require('../../dist/index').actionTest;
 
 const setAge = (age) => ({
   type: 'SET_AGE',
