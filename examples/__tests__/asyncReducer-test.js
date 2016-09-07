@@ -1,4 +1,4 @@
-const asyncReducerTest = require('../../index').asyncReducerTest;
+const asyncReducerTest = require('../../dist/index').asyncReducerTest;
 
 const SET_NAME = 'SET_NAME';
 
