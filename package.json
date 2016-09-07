@@ -1,6 +1,6 @@
 {
   "name": "redux-jest",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Write Redux test with Jest",
   "main": "dist/index.js",
   "scripts": {
