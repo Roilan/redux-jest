@@ -15,6 +15,8 @@ npm install redux-jest --save
 
 ### reducerTest(description, reducer, stateBefore, action, stateAfter)
 
+### asyncReducerTest(description, reducer, stateBefore, asyncAction, stateAfter)
+
 
 ## Example tests
 This is an Jest port of [redux-ava](https://github.com/sotojuan/redux-ava). For more documentation, check there.
