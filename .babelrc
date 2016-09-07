@@ -1,4 +1,4 @@
 {
-  "presets": ["stage-3"],
-  "plugins": ["transform-regenerator"]
+  "presets": ["es2015", "stage-3"],
+  "plugins": ["transform-runtime"]
 }
