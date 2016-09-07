@@ -16,7 +16,19 @@ const reducerTest = (description, reducer, stateBefore, action, stateAfter) => {
   });
 };
 
+const asyncReducerTest = (description, reducer, stateBefore, asyncAction, stateAfter) => {
+  it(description, async () => {
+    const action = await asyncAction;
+
+    deepFreeze(action);
+    deepFreeze(stateBefore);
+
+    expect(reducer(stateBefore, action)).toEqual(stateAfter);
+  });
+};
+
 module.exports = {
   actionTest,
-  reducerTest
+  reducerTest,
+  asyncReducerTest
 };

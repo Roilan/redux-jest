@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/Roilan/redux-jest#readme",
   "dependencies": {
+    "babel-jest": "^15.0.0",
+    "babel-preset-stage-3": "^6.11.0",
     "deep-freeze": "0.0.1"
   },
   "devDependencies": {
